@@ -1,11 +1,17 @@
 # Language Navigation Based on Images
 
-This is Sun Shuzheng's senior project, supervised by Phil Bartie. This repository is used for the purpose of making mentors and second readers aware of the project and will be made private after graduation.
+This is senior project of Shuzheng Sun, supervised by Phil Bartie. This repository is used for the purpose of making mentors and second readers aware of the project and will be made private after graduation.
 
 ## About the use of the code
+The code should be structured as follows:
+
 ```
-AirportCheckInSystem/
+Language_Navigation_Based_on_Images/
 ├── Detectron2/
-└── Map/
-    
+├── Map/
+└── Requirements.txt
 ```
+
+Detectron2 should be available here:[Detectron2](https://github.com/facebookresearch/detectron2). Please follow the official instructions to install and configure the appropriate environment.
+
+The content in Map is the personal achievement of Sun Shuzheng. To test, run Map.py
