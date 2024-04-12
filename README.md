@@ -25,4 +25,6 @@ Detectron2 should be available here: [Detectron2](https://github.com/facebookres
 
 The content in Map is the personal achievement of Sun Shuzheng. To test, run Map.py
 
+Participants' test logs can be found in Map/logfiles.
+
 The environment requirements in this project have been written in Requirements.txt.
