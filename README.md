@@ -12,6 +12,6 @@ Language_Navigation_Based_on_Images/
 └── Requirements.txt
 ```
 
-Detectron2 should be available here:[Detectron2](https://github.com/facebookresearch/detectron2). Please follow the official instructions to install and configure the appropriate environment.
+Detectron2 should be available here: [Detectron2](https://github.com/facebookresearch/detectron2). Please follow the official instructions to install and configure the appropriate environment.
 
 The content in Map is the personal achievement of Sun Shuzheng. To test, run Map.py
