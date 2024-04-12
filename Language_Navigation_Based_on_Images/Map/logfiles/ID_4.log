@@ -1,0 +1,15 @@
+2024-03-28 13:52:19,636 - Map - INFO - User starts from Cross Junction to destination Sainsbury
+2024-03-28 13:52:37,634 - Map - INFO - User arrived at Cross Junction
+2024-03-28 13:52:41,804 - Map - INFO - User inputs: where should i go
+2024-03-28 13:52:46,645 - Map - INFO - System responses: From your current location at Cross Junction, you should head towards your destination, Sainsbury, by taking a right turn. Your next arrive point would be King Street. A key visual landmark for your navigation is a bicycle which is located in the horizontal middle and vertical bottom. The colors observed in this object are predominantly dark moderate pink and light gray. Please proceed cautiously and make a right turn just before you reach this bicycle.
+2024-03-28 13:53:38,249 - Map - INFO - User choose Direction: right
+2024-03-28 13:53:52,090 - Map - INFO - User arrived at King Street
+2024-03-28 13:53:54,635 - Map - INFO - User inputs: where should i go
+2024-03-28 13:53:57,260 - Map - INFO - System responses: There's not enough information in your question for me to provide help. Are you asking for directions or a description of an image?
+2024-03-28 13:54:21,221 - Map - INFO - User arrived at King Street
+2024-03-28 13:54:21,231 - Map - INFO - User inputs: should i go forward
+2024-03-28 13:54:25,763 - Map - INFO - System responses: Yes, you should go forward from King Street in the direction of Sainsbury. This is the correct route towards your destination. Your next stop would be Sainsbury. For any further navigational instructions, feel free to ask.
+2024-03-28 13:54:35,161 - Map - INFO - User choose Direction: forward
+2024-03-28 13:55:03,821 - Map - INFO - User arrived at Sainsbury
+2024-03-28 13:55:06,768 - Map - INFO - User inputs: Have i arrived the sainsbury
+2024-03-28 13:55:08,474 - Map - INFO - System responses: Yes, you have arrived at the Sainsbury.

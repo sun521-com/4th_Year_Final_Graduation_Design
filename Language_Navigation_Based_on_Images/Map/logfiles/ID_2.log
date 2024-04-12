@@ -1,0 +1,25 @@
+2024-03-27 19:16:14,688 - Map - INFO - User starts from Home to destination Sainsbury
+2024-03-27 19:17:00,698 - Map - INFO - User arrived at Home
+2024-03-27 19:17:07,966 - Map - INFO - User inputs: I want to go to Sainsbury. How can I go
+2024-03-27 19:17:16,326 - Map - INFO - System responses: From your home, you should start heading towards Princesses Street. While on your path, you'll notice a car; its color ranges from a dark shade of blue ([ 12  20  41]) to lighter grayish-blue ([141 162 195]). It is located towards the middle and bottom direction. Once you're there, make a left turn. Continue in this direction and you will reach your destination, 'Sainsbury'.
+2024-03-27 19:18:16,443 - Map - INFO - User choose Direction: left
+2024-03-27 19:18:32,894 - Map - INFO - User arrived at Princesses Street
+2024-03-27 19:18:35,086 - Map - INFO - User inputs: what should I do for next step?
+2024-03-27 19:18:38,223 - Map - INFO - System responses: I'm sorry, but you didn't ask a specific question. Could you please provide more details? Are you referring to an image description or navigation instruction scenario?
+2024-03-27 19:19:30,305 - Map - INFO - User arrived at Princesses Street
+2024-03-27 19:19:30,313 - Map - INFO - User inputs: Based on this scenaio, I want to know how to go to Sainsbury
+2024-03-27 19:19:32,491 - Map - INFO - System responses: You are currently on Princesses Street, navigate in the forward direction and your next stop will be the Cross Junction. Continue from there, and you should arrive at your destination 'Sainsbury'.
+2024-03-27 19:19:47,755 - Map - INFO - User choose Direction: forward
+2024-03-27 19:20:21,560 - Map - INFO - User arrived at Cross Junction
+2024-03-27 19:20:23,138 - Map - INFO - User inputs: How can i continue to go from there:Cross Joint?
+2024-03-27 19:20:32,022 - Map - INFO - System responses: Sure, before you reach Cross Junction, you will see a bicycle in the horizontal middle and vertical bottom location. The color of the bicycle will be Brown and Light Brown. You need to make a right turn just before you reach this bicycle. After this turn, your next arrival will be King Street which is on your way to the final destination, Sainsbury.
+
+In case you feel lost or unclear about the directions, do remember to look for the aforementioned bicycle as your landmark. This will ensure that you're on the right path. And as per your instruction, once you arrive at Sainsbury, I will notify you of your arrival. Safe journey!
+2024-03-27 19:21:05,158 - Map - INFO - User choose Direction: right
+2024-03-27 19:22:48,774 - Map - INFO - User arrived at King Street
+2024-03-27 19:22:51,216 - Map - INFO - User inputs: Yes I am on King street now, what should I go for next?
+2024-03-27 19:22:53,347 - Map - INFO - System responses: You should continue going forward from King Street to reach your destination, Sainsbury. It's straight ahead.
+2024-03-27 19:22:59,751 - Map - INFO - User choose Direction: forward
+2024-03-27 19:23:34,151 - Map - INFO - User arrived at Sainsbury
+2024-03-27 19:23:36,965 - Map - INFO - User inputs: congratulation£¡I arrived on Sainsbury. 
+2024-03-27 19:23:40,728 - Map - INFO - System responses: Great! You have arrived at your destination which is Sainsbury. You can now park up and proceed with your shopping.

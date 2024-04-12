@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Start Navigation</title>
+    <style>
+        /* Basic styling for the body of the document. */
+        body {
+            display: flex;
+            flex-direction: column; /* Align items vertically */
+            justify-content: center; /* Center items horizontally */
+            align-items: center; /* Center items vertically */
+            height: 100vh;
+            margin-top: 20px;
+            margin-bottom: 20px; /* Add margin between center-div and tree */
+
+        }
+        /* Styling for .tree class elements, typically used to display text in a monospace font to preserve formatting. */
+        .tree {
+            white-space: pre;
+            font-family: 'Courier New', Courier, monospace; /* Monospace font */
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #444444; /* Darker background color */
+            color: #ffffff; /* White text color */
+        }
+        .purple-bold {
+            color: #E153E1; /* Purple color */
+            font-weight: bold; /* Bold font */
+        }
+        .normal-font-bold {
+            color: #000000; /* Purple color */
+            font-weight: bold; /* Bold font */
+        }
+        /* Styling for buttons, including dimensions, colors, and interactivity. */
+        button {
+            width: 150px; /* Set button width */
+            padding: 10px; /* Add padding */
+            background-color: #E153E1; /* Green background color */
+            color: white; /* White text color */
+            border: none; /* Remove border */
+            border-radius: 3px; /* Add border radius */
+            cursor: pointer; /* Add pointer cursor */
+            transition: background-color 0.3s; /* Add transition for hover effect */
+            font-family: Arial, sans-serif; /* Specify font family */
+            font-size: 16px; /* Set font size */
+            font-weight: bold; /* Bold font */
+        }
+        button:hover {
+            background-color: #E153E1; /* Darker green background color on hover */
+        }
+        .center-div form > div {
+            margin-bottom: 20px; /* Add margin between form elements */
+        }
+        /* Styles the .center-div class to center its content using flexbox, similar to the body styling but applicable to specific divs. */
+        .center-div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+    </style>
+    <script>
+        // Initialize an array containing names of all valid locations for navigation.
+        const validLocations = [
+            'Home', 'Moon Street', 'Heriot-Watt University', 'Princesses Street',
+            'Cross Junction', 'Queen Street', 'McDonald\'s', 'Princes Street',
+            'St.James Quarter', 'King Street', 'Sainsbury'
+        ];
+        // Function to validate the start and end locations entered by the user.
+        function validateLocation() {
+            // Retrieve user-entered start and end locations from input fields.
+            const startNode = document.getElementById('startNode').value;
+            const endNode = document.getElementById('endNode').value;
+
+            // Check if both start and end locations are within the valid locations array.
+            if (!validLocations.includes(startNode) || !validLocations.includes(endNode)) {
+                // Show an alert if one or both locations are invalid.
+                alert('One or both of the entered locations are invalid. Please enter a valid location.');
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <h1>Welcome to Navigator</h1>
+    <!-- Visual representation of the navigation tree/map. -->
+    <div class="tree">
+<span class="purple-bold">Home</span>
+  |---[forward]---> <span class="purple-bold">Moon Street</span> --[forward]--> <span class="purple-bold">Heriot-Watt University</span>
+  |---[left]------> <span class="purple-bold">Princesses Street</span> --[forward]--> <span class="purple-bold">Cross Junction</span> --[forward]--> <span class="purple-bold">Queen Street</span> --[forward]--> <span class="purple-bold">McDonald's</span>
+                                                                   |--[left]-----> <span class="purple-bold">Princes Street</span> --[forward]--> <span class="purple-bold">St.James Quarter</span>
+                                                                   |--[right]----> <span class="purple-bold">King Street</span> --[forward]--> <span class="purple-bold">Sainsbury</span>
+    </div>
+    <!-- A form to input starting position and destination, with validation on submission. -->
+    <div class="center-div">
+        <form action="/set_start_end" method="post" onsubmit="return validateLocation()">
+            <!-- Field for entering the starting position. -->
+            <div>
+                <label for="startNode"><span class="normal-font-bold">Enter your starting position:</span></label><br>
+                <input type="text" id="startNode" name="start_node_id" required><br>
+            </div>
+            <!-- Field for entering the destination. -->
+            <div>
+                <label for="endNode"><span class="normal-font-bold">Enter your destination:</span></label><br>
+                <input type="text" id="endNode" name="end_node_id" required><br>
+            </div>
+            <!-- Submit button for the form. -->
+            <button type="submit">Navigate</button>
+        </form>
+    </div>
+</body>
+</html>

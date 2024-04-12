@@ -1,0 +1,37 @@
+2024-03-29 15:04:26,298 - Map - INFO - User starts from Home to destination St.James Quarter
+2024-03-29 15:04:47,531 - Map - INFO - User arrived at Home
+2024-03-29 15:04:54,580 - Map - INFO - User inputs: where should I go
+2024-03-29 15:05:00,009 - Map - INFO - System responses: Based on your current location, you should head left towards Princesses Street in the direction of St.James Quarter. Look out for a car around which you should make a left turn. This car would be in the horizontal middle and at the bottom, with colors ranging from very dark blue to a moderate blue.
+2024-03-29 15:05:38,647 - Map - INFO - User choose Direction: left
+2024-03-29 15:05:53,847 - Map - INFO - User arrived at Princesses Street
+2024-03-29 15:05:55,796 - Map - INFO - User inputs: where am I now
+2024-03-29 15:05:58,119 - Map - INFO - System responses: Based on the given data, your current location is Princesses Street.
+2024-03-29 15:06:19,206 - Map - INFO - User arrived at Princesses Street
+2024-03-29 15:06:19,208 - Map - INFO - User inputs: What is infront of me
+2024-03-29 15:06:21,463 - Map - INFO - System responses: You are currently on Princesses Street. To reach your destination, St.James Quarter, you need to go forward. You will next arrive at a Cross Junction.
+2024-03-29 15:06:34,923 - Map - INFO - User choose Direction: forward
+2024-03-29 15:06:57,875 - Map - INFO - User arrived at Cross Junction
+2024-03-29 15:06:59,239 - Map - INFO - User inputs: where should I go
+2024-03-29 15:07:04,207 - Map - INFO - System responses: From your current location at the Cross Junction, you should head left towards Princes Street. Pay attention to a car that is horizontally on the left and vertically in the middle; it's in a very dark color, almost black. After passing this car, continue straight, and St. James Quarter will be your next stop.
+2024-03-29 15:08:16,043 - Map - INFO - User choose Direction: right
+2024-03-29 15:08:26,400 - Map - INFO - User arrived at King Street
+2024-03-29 15:08:28,614 - Map - INFO - User inputs: where am I now
+2024-03-29 15:08:30,779 - Map - INFO - System responses: You are currently at King Street. Your destination is St.James Quarter and you should head back in the direction you came. You will next arrive at Cross Junction.
+2024-03-29 15:08:41,414 - Map - INFO - User choose Direction: back
+2024-03-29 15:08:44,181 - Map - INFO - User choose Direction: left
+2024-03-29 15:08:54,976 - Map - INFO - User arrived at Princes Street
+2024-03-29 15:08:56,504 - Map - INFO - User inputs: where should I go
+2024-03-29 15:09:00,449 - Map - INFO - System responses: As your current location is Princes Street and your destination is St.James Quarter, please move forward. The next position you will arrive is St.James Quarter, which is also your intended destination.
+2024-03-29 15:09:20,103 - Map - INFO - User arrived at Princes Street
+2024-03-29 15:09:20,110 - Map - INFO - User inputs: what is the date today
+2024-03-29 15:09:21,695 - Map - INFO - System responses: Sorry, I do not know the current date as I am not programmed to provide real-time information.
+2024-03-29 15:09:37,517 - Map - INFO - User arrived at Princes Street
+2024-03-29 15:09:37,521 - Map - INFO - User inputs: 1+1
+2024-03-29 15:09:39,163 - Map - INFO - System responses: 2
+2024-03-29 15:09:42,944 - Map - INFO - User choose Direction: forward
+2024-03-29 15:10:03,848 - Map - INFO - User arrived at St.James Quarter
+2024-03-29 15:10:05,845 - Map - INFO - User inputs: Am I arrived at my destiation
+2024-03-29 15:10:07,512 - Map - INFO - System responses: Yes, you have arrived at your destination.
+2024-03-29 15:10:21,962 - Map - INFO - User arrived at St.James Quarter
+2024-03-29 15:10:21,966 - Map - INFO - User inputs: thank you
+2024-03-29 15:10:25,275 - Map - INFO - System responses: You're welcome! If you have any other questions, feel free to ask.

@@ -1,0 +1,28 @@
+2024-03-29 15:18:55,661 - Map - INFO - User starts from Cross Junction to destination Heriot-Watt University
+2024-03-29 15:19:15,995 - Map - INFO - User arrived at Cross Junction
+2024-03-29 15:19:19,387 - Map - INFO - User inputs: How can I get to the destination
+2024-03-29 15:19:23,746 - Map - INFO - System responses: From your current location, Cross Junction, you'll need to go back in the opposite direction you were heading. The next arrival point you should reach is Princesses Street. Continue to use recognizable landmarks along your route for guidance. Keep on moving until you arrive at your destination, which is Heriot-Watt University. If you have already reached your destination, then you have arrived at Heriot-Watt University.
+2024-03-29 15:19:36,484 - Map - INFO - User choose Direction: back
+2024-03-29 15:19:49,567 - Map - INFO - User arrived at Princesses Street
+2024-03-29 15:19:51,649 - Map - INFO - User inputs: Then where should I go
+2024-03-29 15:19:55,369 - Map - INFO - System responses: I'm sorry, without knowing your specific question or request, it's difficult to provide the proper direction or information. If you could provide more context or clarify your question, I would be happy to assist you further.
+2024-03-29 15:21:04,383 - Map - INFO - User arrived at Princesses Street
+2024-03-29 15:21:04,389 - Map - INFO - User inputs: I want to go to Heriot-Watt University. How can I get to there
+2024-03-29 15:21:09,290 - Map - INFO - System responses: From your current location at Princess Street, you should go in the opposite direction that you came from. This means you will need to head back to your last stop which is Home. From there, continue in the direction of Heriot-Watt University. On your route, always look for recognisable landmarks or objects to ensure you're going in the right direction.
+2024-03-29 15:21:19,086 - Map - INFO - User choose Direction: back
+2024-03-29 15:22:04,268 - Map - INFO - User arrived at Home
+2024-03-29 15:22:05,534 - Map - INFO - User inputs: Is the position Heriot-Watt University?
+2024-03-29 15:22:07,823 - Map - INFO - System responses: No, you are currently at Home. To get to Heriot-Watt University, you should go forward to Moon Street.
+2024-03-29 15:22:40,815 - Map - INFO - User arrived at Home
+2024-03-29 15:22:40,817 - Map - INFO - User inputs: Do you mean I need to pass by the blue car?
+2024-03-29 15:22:45,670 - Map - INFO - System responses: I'm sorry, but I don't have the information about the color of the cars on your route. My current instructions only allow me to guide you to your next stop, which is Moon Street, on your way to Heriot-Watt University. Keep moving forward.
+2024-03-29 15:23:00,657 - Map - INFO - User choose Direction: forward
+2024-03-29 15:23:42,398 - Map - INFO - User arrived at Moon Street
+2024-03-29 15:23:44,499 - Map - INFO - User inputs: Where should I go now?
+2024-03-29 15:23:48,128 - Map - INFO - System responses: Since your current location is Moon Street and your destination is Heriot-Watt University and your next arrive location is also Heriot-Watt University, you should go forward to Heriot-Watt University. You will arrive at your destination then.
+2024-03-29 15:24:03,064 - Map - INFO - User choose Direction: forward
+2024-03-29 15:24:19,541 - Map - INFO - User arrived at Heriot-Watt University
+2024-03-29 15:24:20,446 - Map - INFO - User inputs: thanks
+2024-03-29 15:24:26,670 - Map - INFO - System responses: Based on the information provided, it appears that you are currently at Heriot-Watt University, which is also your destination. As such, there is no more direction necessary, and the next stop to announce would be 'arrived'. Therefore, to put this information together: You have now arrived at your destination, Heriot-Watt University. 
+
+I would like to note, however, your second set of instructions for image content descriptions does not include any specific information to work with. Please provide details for me to assist further in that aspect. For any other inquiries or assistance, feel free to ask.

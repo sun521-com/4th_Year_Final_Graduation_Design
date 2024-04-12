@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Navigator</title>
+    <!-- The style section defines CSS rules for styling the web page elements. -->
+    <style>
+        /* Basic styling for the body of the document. */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #F5F5F5;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        /* Styling for buttons. */
+        button {
+            padding: 12px 20px;
+            border-radius: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border: none;
+            background-color: #E153E1;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            vertical-align: top;
+            flex: none;
+            width: auto;
+            margin-right: 0;
+        }
+
+        /* Adds hover effects to the button for when the mouse is over it. */
+        button:hover {
+            background-color: #E153E1;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Styling for the chatbox element. */
+        #chatbox {
+            position: fixed;
+            bottom: 120px;
+            right: 60px;
+            width: 400px;
+            height: 600px;
+            border: 1px solid #ccc;
+            overflow: auto;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        /* Styling for the chatbox header. */
+        #chatbox h2 {
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+            text-align: center;
+        }
+
+        /* Styling for the message input field within the chat controls. */
+        #messageInput {
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            padding: 12px 20px;
+            /*width: calc(100% - 44px); */
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-right: 10px;
+            width: 70%;
+        }
+
+        /* Styling for the container that holds the chat controls. */
+        #chatControls {
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            width: 400px;
+            padding: 10px;
+            background-color: #F5F5F5;
+            display: flex;
+            align-items: center;
+            border-radius: 20px;
+        }
+
+        /* Applies flexbox rules to align the input field and buttons inside the chat controls. */
+        #messageInput, button {
+            flex: 1;
+            margin-right: 10px;
+            border-radius: 20px;
+            padding: 10px 15px;
+        }
+
+        /* Styling for a loading animation "spinner". */
+        .loader {
+            border: 5px solid #f3f3f3; /* Light grey */
+            border-top: 5px solid #3498db; /* Blue */
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            animation: spin 2s linear infinite;
+            display: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- Main content of the page. -->
+    <h1>Navigator</h1>
+    <h4>You are at {{ node_id }}</h4>
+    <!-- An image element that displays a picture related to the current node. The image path is dynamically generated server-side. -->
+    <img src="{{ url_for('static', filename=node.image_path) }}" alt="Node Image" style="max-width: 60%; left:50px; height: auto;">
+    <!-- Form for navigation actions, with a hidden field carrying the current node ID. -->
+    <form action="{{ url_for('navigate') }}" method="post">
+        <input type="hidden" name="current_node_id" value="{{ node_id }}">
+    </form>
+</body>
+<!-- Initial buttons for navigation, dynamically generated based on the current node's possible directions. -->
+<div id="initialButtons">
+    {% for edge in node.edges %}
+        <button type="button" onclick="navigateAndUpdateImage('{{ edge.direction }}')">{{ edge.direction | capitalize }}</button>
+    {% endfor %}
+</div>
+<!-- A loading animation container, initially hidden, shown during data fetching. -->
+<div id="loading" style="display: none;">
+    <div class="loader"></div>
+</div>
+<!-- The chatbox container where messages and interactions will be displayed. -->
+<div id="chatbox">
+    <h2>Navigation Assistant</h2>
+    <!-- The chat will be displayed here -->
+</div>
+<!-- Chat controls containing the message input and send button. -->
+<div id="chatControls" >
+    <input type="text" id="messageInput" placeholder="Type your message here..." style="width: 70%;">
+    <button id="sendButton" onclick="sendMessage();">Send</button>
+</div>
+<div id="directionButtons">
+    <!--Dynamically generated buttons will be placed here -->
+</div>
+
+<script>
+// Function to handle message sending from the input box.
+function sendMessage() {
+    var message = document.getElementById('messageInput').value; // Getting user input
+    var chatbox = document.getElementById('chatbox');
+    document.getElementById('messageInput').value = ''; // Empty the input box
+    chatbox.innerHTML += `<div>You: ${message}</div>`; // Display the user's message in the chat box
+    // Update button to wait and disable
+    sendButton.textContent = 'Answering...';
+    sendButton.disabled = true;
+
+    // Retrieves the current node ID from a hidden input for context in message handling.
+    var currentNodeId = document.querySelector('input[name="current_node_id"]').value; // Get current node ID
+
+    // Sends the message to a server-side endpoint via fetch API, including the current node ID.
+    fetch('/send_message', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({message: message, current_node_id: currentNodeId})
+    })
+    .then(response => response.json())
+    .then(data => {
+        // Displays the server's or chatbot's response in the chatbox.
+        chatbox.innerHTML += `<div>Navigation response: ${data.message}</div>`; // Display ChatGPT replies in the chat box
+
+    })
+    .catch((error) => {
+        console.error('Error:', error);
+    })
+    .finally(() => {
+        // Resets the send button to its original state after the operation completes.
+        sendButton.textContent = 'Send';
+        sendButton.disabled = false;
+    });
+}
+// Function to navigate to a new node and update the page content accordingly.
+function navigateAndUpdateImage(direction) {
+    // Clears initial navigation buttons and shows the loading animation.
+    document.getElementById('initialButtons').innerHTML = '';
+    document.getElementById('loading').style.display = 'block';
+
+    // Retrieves the current node ID from a hidden input.
+    var currentNodeId = document.querySelector('input[name="current_node_id"]').value; // 获取当前节点ID
+
+    // Sends navigation request to the server with the chosen direction and current node ID.
+    fetch('/navigate', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({direction: direction, current_node_id: currentNodeId})
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok ' + response.statusText);
+        }
+        return response.json();
+    })
+    .then(data => {
+        // Updated Pictures
+        var imgElement = document.querySelector('img');
+        if (imgElement) {
+            imgElement.src = data.newImagePath;
+        } else {
+            throw new Error('Image element not found');
+        }
+        // Update current node ID
+        document.querySelector('input[name="current_node_id"]').value = data.newNodeId;
+
+        var nodeIdElement = document.querySelector('h4');
+        nodeIdElement.textContent = `You are at ${data.newNodeId}`;
+
+        // Update Direction Buttons
+        var directionButtonsContainer = document.getElementById('directionButtons');
+        directionButtonsContainer.innerHTML = ''; // Clear the current button
+        data.edges.forEach(edge => {
+            var button = document.createElement('button');
+            button.textContent = edge.direction.capitalize();
+            button.onclick = function() { navigateAndUpdateImage(edge.direction); };
+            directionButtonsContainer.appendChild(button);
+        });
+
+        // Hide loading state
+        document.getElementById('loading').style.display = 'none';
+    })
+    .catch((error) => {
+        console.error('Error:', error);
+        // Hide loading state
+        document.getElementById('loading').style.display = 'none';
+    });
+}
+
+// Extends String prototype to include a capitalize function for text formatting.
+String.prototype.capitalize = function() {
+    return this.charAt(0).toUpperCase() + this.slice(1).toLowerCase();
+}
+
+
+</script>
+
+</html>

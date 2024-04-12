@@ -1,0 +1,44 @@
+2024-03-29 16:43:50,180 - Map - INFO - User starts from Home to destination McDonald's
+2024-03-29 16:44:20,361 - Map - INFO - User arrived at Home
+2024-03-29 16:44:24,183 - Map - INFO - User inputs: I want to go to McDonald's.
+2024-03-29 16:44:28,270 - Map - INFO - System responses: From your current location, home, you need to go towards the left direction. Your destination is McDonald's and the following point you will arrive at is Princesses street. On the way, make sure to take a left turn just before you reach a blue-grey car located at the horizontal middle and vertical bottom position from your current view.
+2024-03-29 16:44:35,708 - Map - INFO - User choose Direction: left
+2024-03-29 16:45:02,556 - Map - INFO - User arrived at Princesses Street
+2024-03-29 16:45:04,921 - Map - INFO - User inputs: What's my next move?
+2024-03-29 16:45:13,518 - Map - INFO - System responses: As an AI, I need a question or a command from you to determine what the next move is. Based on your long explanation, it seems like you want me to provide navigation instructions or describe the content of an image. However, I need a specific question or request from you. For example, you might ask, "What should I do after reaching the Cross Junction?" for navigation, or "Can you describe the image for me?" for image content description.
+2024-03-29 16:45:39,852 - Map - INFO - User arrived at Princesses Street
+2024-03-29 16:45:39,855 - Map - INFO - User inputs: How to get to McDonald's?
+2024-03-29 16:45:43,759 - Map - INFO - System responses: Based on your current location at Princesses Street, your destination is McDonald's. You need to head in a forward direction and you should soon arrive at a Cross Junction. Continue to follow the road from there to reach your destination.
+2024-03-29 16:45:49,420 - Map - INFO - User choose Direction: forward
+2024-03-29 16:45:58,589 - Map - INFO - User arrived at Cross Junction
+2024-03-29 16:46:00,211 - Map - INFO - User inputs: How to get to McDonald's?
+2024-03-29 16:46:04,469 - Map - INFO - System responses: Based on your current location at Cross Junction, you will need to go forward in the direction of Queen Street. Keep following this route until you reach McDonald's, which is your desired destination. If you have already reached Queen Street, you have successfully arrived at McDonald's.
+2024-03-29 16:46:11,458 - Map - INFO - User choose Direction: left
+2024-03-29 16:46:48,731 - Map - INFO - User arrived at Princes Street
+2024-03-29 16:46:49,847 - Map - INFO - User inputs: Am I going in the right direction?
+2024-03-29 16:46:52,872 - Map - INFO - System responses: As an AI, I'm unable to determine your physical direction or location. From the navigation instructions you've provided, your current location is Princes Street and you need to go back towards the Cross Junction for your next stop, on the way to your destination of Mcdonald's. Let me know if you have other questions.
+2024-03-29 16:47:17,685 - Map - INFO - User arrived at Princes Street
+2024-03-29 16:47:17,687 - Map - INFO - User inputs: Am I on Queen Street now?
+2024-03-29 16:47:19,280 - Map - INFO - System responses: No, currently you are on Princes Street.
+2024-03-29 16:47:43,735 - Map - INFO - User arrived at Princes Street
+2024-03-29 16:47:43,737 - Map - INFO - User inputs: How do I get to McDonald's?
+2024-03-29 16:47:47,316 - Map - INFO - System responses: According to the navigation details provided, you're currently on Princes Street and your destination is McDonald's. As per your current direction, you should proceed towards the back until the Cross Junction. Then take the appropriate turn to reach McDonald's. Please keep an eye on the landmarks for better navigation.
+2024-03-29 16:48:00,233 - Map - INFO - User choose Direction: forward
+2024-03-29 16:48:05,818 - Map - INFO - User arrived at St.James Quarter
+2024-03-29 16:48:07,477 - Map - INFO - User inputs: How do I get to McDonald's?
+2024-03-29 16:48:10,322 - Map - INFO - System responses: From your current location at St. James Quarter, you need to head back towards your last stop which is Princes Street. Continue on this route and you'll arrive at your destination, McDonald's. Safe travels!
+2024-03-29 16:48:10,666 - Map - INFO - User arrived at St.James Quarter
+2024-03-29 16:48:10,669 - Map - INFO - User inputs: 
+2024-03-29 16:48:13,051 - Map - INFO - System responses: I'm sorry, but I need more information to help you. Are you asking for navigation instructions to McDonald's or do you want me to describe the content of an image?
+2024-03-29 16:48:20,451 - Map - INFO - User choose Direction: back
+2024-03-29 16:48:26,900 - Map - INFO - User arrived at Princes Street
+2024-03-29 16:48:26,904 - Map - INFO - User inputs: How do I get to McDonald's?
+2024-03-29 16:48:29,531 - Map - INFO - System responses: I'm sorry, but I need more specific information about your current location to provide directions to McDonald's.
+2024-03-29 16:48:55,560 - Map - INFO - User arrived at Princes Street
+2024-03-29 16:48:55,563 - Map - INFO - User inputs: How do I get to McDonald's?
+2024-03-29 16:48:57,677 - Map - INFO - System responses: I'm sorry, but I can't assist with that.
+2024-03-29 16:49:24,316 - Map - INFO - User arrived at Princes Street
+2024-03-29 16:49:24,318 - Map - INFO - User inputs: Where am I now?
+2024-03-29 16:49:25,778 - Map - INFO - System responses: You are currently located on Princes Street.
+2024-03-29 16:49:48,390 - Map - INFO - User arrived at Princes Street
+2024-03-29 16:49:48,392 - Map - INFO - User inputs: How do I get from Princes Street to McDonald's?

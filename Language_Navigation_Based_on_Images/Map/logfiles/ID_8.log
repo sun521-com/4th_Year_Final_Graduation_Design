@@ -1,0 +1,17 @@
+2024-03-29 15:42:49,934 - Map - INFO - User starts from Home to destination Sainsbury
+2024-03-29 15:43:51,415 - Map - INFO - User arrived at Home
+2024-03-29 15:43:54,846 - Map - INFO - User inputs: which road should i choose
+2024-03-29 15:44:01,890 - Map - INFO - System responses: You are currently at Home. To reach your destination Sainsbury, you need to go left towards Princesses Street. Look out for a car with a color shade similar to light blue and very dark blue at the middle-bottom horizontally and bottom vertically, just before your left turn. Proceed in this manner until you arrive at your destination. If you've reached Sainsbury, then you have arrived at your destination. Safe travels!
+2024-03-29 15:45:48,613 - Map - INFO - User choose Direction: left
+2024-03-29 15:46:22,846 - Map - INFO - User arrived at Princesses Street
+2024-03-29 15:46:24,834 - Map - INFO - User inputs: And then?
+2024-03-29 15:46:28,564 - Map - INFO - System responses: You are currently at Princesses Street and your next step is to move forward towards the Cross Junction, which is on your way to your final destination, Sainsbury. Keep your direction constant and do remember to stop at Cross Junction before further navigation.
+2024-03-29 15:47:10,146 - Map - INFO - User choose Direction: forward
+2024-03-29 15:47:43,194 - Map - INFO - User arrived at Cross Junction
+2024-03-29 15:47:44,484 - Map - INFO - User inputs: i have stop at the cross junction,and then?
+2024-03-29 15:47:47,842 - Map - INFO - System responses: You should make a right turn at the cross junction. Landmark to notice is a bicycle, which is dark brown and beige in color, located in the middle-bottom part of your view. After turning, you will be heading towards King Street on your way to Sainsbury.
+2024-03-29 15:48:50,328 - Map - INFO - User choose Direction: right
+2024-03-29 15:49:11,336 - Map - INFO - User choose Direction: forward
+2024-03-29 15:49:33,383 - Map - INFO - User arrived at Sainsbury
+2024-03-29 15:49:35,999 - Map - INFO - User inputs: i have see the logo of sainsbury
+2024-03-29 15:49:39,132 - Map - INFO - System responses: As an AI text-based model, I'm unable to physically see, including logos or images. I can provide information based on the input data I receive in text format. If you have any questions about Sainsbury's, feel free to ask! I'm here to help with that.

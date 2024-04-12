@@ -1,0 +1,54 @@
+2024-03-26 22:06:55,696 - Map - INFO - User starts from Heriot-Watt University to destination McDonald's
+2024-03-26 22:07:08,109 - Map - INFO - User arrived at Heriot-Watt University
+2024-03-26 22:07:14,189 - Map - INFO - User inputs: where am i?
+2024-03-26 22:07:17,008 - Map - INFO - System responses: You are currently at Heriot-Watt University. Your destination is McDonald's. You should head back in the direction you came from towards Moon Street. This is your next stop. Please move towards recognizable landmarks.
+2024-03-26 22:07:55,839 - Map - INFO - User choose Direction: back
+2024-03-26 22:09:09,706 - Map - INFO - User arrived at Moon Street
+2024-03-26 22:09:12,021 - Map - INFO - User inputs: where should i go next
+2024-03-26 22:09:14,385 - Map - INFO - System responses: I'm sorry, but I need to know whether you need navigation instructions or image content descriptions. Could you kindly specify?
+2024-03-26 22:09:41,480 - Map - INFO - User arrived at Moon Street
+2024-03-26 22:09:41,486 - Map - INFO - User inputs: navigation instructions based on image content
+2024-03-26 22:09:45,453 - Map - INFO - System responses: You are currently on 'Moon Street'. To reach 'McDonald's' from your current location, you need to go back towards your last stop at 'Home'. From there, I will provide further instructions. Please make sure you have arrived at 'Home' before proceeding.
+2024-03-26 22:10:21,328 - Map - INFO - User choose Direction: back
+2024-03-26 22:11:21,861 - Map - INFO - User arrived at Home
+2024-03-26 22:11:23,158 - Map - INFO - User inputs: yes, i am. please continue guide me
+2024-03-26 22:11:41,175 - Map - INFO - System responses: Here's how I am interpreting the guidance you've provided:
+
+When you ask for navigation instructions, you want me to use the navigation information you've given, such as your current location and destination, to guide you to your destination. I will tell you what direction you should go and what you will see next, making sure to describe any identifiable landmarks in your path.
+
+For instance, if your current location is at Home and your destination is McDonald's, and to get there you should go left and your next arrival position would be Princesses Street, if there's a car in your way, I would tell you to make a left turn just before the car. If the car's color were represented as [12 20 41] and [141 162 195] in RGB values, I would convert this to the name of the actual color and use that in my directions.
+
+I only tell you that you have arrived at your destination once you're actually there.
+
+When you ask for image content descriptions, you want me to describe what is visible in the image as per the information provided. I will differentiate and describe each object detected in the image by their class, location on the image, and color. I will use human-friendly descriptions for the positions and convert any RGB color representations to their color names.
+
+For instance, if the image contains several cars positioned in the horizontal middle and vertical bottom of the image, with respective RGB values for their colors, I would classify each car, specify its position, and name its color.
+
+In all communication, if I cannot provide a definitive response, I will politely express my uncertainly, striving to enhance your user experience by providing clear, dependable information.
+2024-03-26 22:12:05,838 - Map - INFO - User choose Direction: left
+2024-03-26 22:12:23,457 - Map - INFO - User choose Direction: back
+2024-03-26 22:12:24,401 - Map - INFO - User choose Direction: left
+2024-03-26 22:14:35,769 - Map - INFO - User arrived at Princesses Street
+2024-03-26 22:14:37,847 - Map - INFO - User inputs: i am at princesses street, where should i go next?
+2024-03-26 22:14:40,848 - Map - INFO - System responses: I'm sorry, but I need more information to provide a suggestion. Could you tell me what your intended destination is? Or are you looking for places of interest around Princesses Street?
+2024-03-26 22:15:08,422 - Map - INFO - User arrived at Princesses Street
+2024-03-26 22:15:08,427 - Map - INFO - User inputs: my destination is mcdonald
+2024-03-26 22:15:13,168 - Map - INFO - System responses: From Princesses Street, your destination is McDonald's. You should go forward until you reach the Cross Junction. Remember, your next stop is the Cross Junction which is on the way to McDonald's. Please keep following the path.
+2024-03-26 22:15:21,544 - Map - INFO - User choose Direction: forward
+2024-03-26 22:16:04,398 - Map - INFO - User arrived at Cross Junction
+2024-03-26 22:16:05,688 - Map - INFO - User inputs: i am at cross junction, what's next direction?
+2024-03-26 22:16:07,553 - Map - INFO - System responses: From Cross Junction, continue forward towards your intended destination which is McDonald's. The next location you should arrive at is Queen Street. Please proceed carefully.
+2024-03-26 22:16:34,272 - Map - INFO - User arrived at Cross Junction
+2024-03-26 22:16:34,277 - Map - INFO - User inputs: which way should i go to approach queen street?
+2024-03-26 22:16:37,459 - Map - INFO - System responses: Based on the information, from 'Cross Junction', you should go forward to reach the next stop, which is 'Queen Street'. Continue in the forward direction.
+2024-03-26 22:16:47,694 - Map - INFO - User choose Direction: forward
+2024-03-26 22:17:27,279 - Map - INFO - User arrived at Queen Street
+2024-03-26 22:17:28,758 - Map - INFO - User inputs: i am at queen street, where should i go next?
+2024-03-26 22:17:30,682 - Map - INFO - System responses: As you are currently at Queen Street, please go forward towards McDonald's. This is your next stop.
+2024-03-26 22:17:35,443 - Map - INFO - User choose Direction: forward
+2024-03-26 22:17:52,301 - Map - INFO - User arrived at McDonald's
+2024-03-26 22:17:53,244 - Map - INFO - User inputs: oh i arrive it, thank you
+2024-03-26 22:17:54,633 - Map - INFO - System responses: You're welcome! If you have any other questions or need further assistance, feel free to ask. Safe travels!
+2024-03-26 22:18:29,734 - Map - INFO - User arrived at McDonald's
+2024-03-26 22:18:29,735 - Map - INFO - User inputs: can you see the man in the picture?
+2024-03-26 22:18:34,307 - Map - INFO - System responses: Yes, there is a person in the picture. The person is located in the horizontal left and vertical middle of the image. The detection confidence is very high at 0.9984578. The colors detected on the person are light gray and a dark shade of gray.

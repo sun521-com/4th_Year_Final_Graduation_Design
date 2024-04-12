@@ -1,0 +1,42 @@
+2024-03-29 17:01:25,034 - Map - INFO - User starts from Queen Street to destination Heriot-Watt University
+2024-03-29 17:02:13,135 - Map - INFO - User arrived at Queen Street
+2024-03-29 17:02:17,817 - Map - INFO - User inputs: Where do I go from here?
+2024-03-29 17:02:31,986 - Map - INFO - System responses: Based on your current location at Queen Street and your destination being Heriot-Watt University, you need to head back. Your next arrival point will be the Cross Junction. Safe journey! 
+
+Now, regarding the image content descriptions you asked for, here's what I inference: 
+
+There's a person located at the middle horizontally and at the bottom vertically, with a high confidence level of approximately 99.85%. The identified colors are dark brown and silvery grey.
+
+There are multiple cars in the image: 
+One is positioned on the left horizontally and in the middle vertically. Confidence level is 99.62% and colors are dark brownish-red and light reddish-grey. 
+Another car is located in the middle horizontally and at the bottom vertically with a confidence level of approximately 97.24%, with colors dark reddish-brown and silvery grey. 
+Then, a car found in the middle section both horizontally and vertically with a confidence level of approximately 84.20%. Colors identified are dark blue and murky blue. 
+Lastly, a car located in the middle bottom with color shades of dusty blue and dark blue, and a 76.81% confidence level. 
+
+There's also one motorcycle on the left horizontally and in the middle, vertically. Confidence level is 96.49% and it's identified in dark grey color.
+
+I trust this completes your query. If you need more help, feel free to ask!
+2024-03-29 17:04:03,536 - Map - INFO - User choose Direction: back
+2024-03-29 17:04:03,932 - Map - INFO - User choose Direction: back
+2024-03-29 17:04:29,994 - Map - INFO - User arrived at Princesses Street
+2024-03-29 17:04:32,110 - Map - INFO - User inputs: And then?
+2024-03-29 17:04:38,742 - Map - INFO - System responses: To provide the most suitable response, I would need to know the specific question you're asking, whether it's about navigation instructions or image content descriptions.
+
+If you ask for navigation instructions, I would interpret your data and provide step-by-step directions, letting you know when you've arrived at your destination. If your questions relate to image content descriptions, I would describe what's visible in the image, using object classes, their locations, confidence, and color.
+
+Feel free to ask a specific query, and I will do my best to give a detailed and concise answer accordingly.
+2024-03-29 17:05:06,591 - Map - INFO - User arrived at Princesses Street
+2024-03-29 17:05:06,593 - Map - INFO - User inputs: Where do I go from here?
+2024-03-29 17:05:12,718 - Map - INFO - System responses: As you are currently at Princesses Street, and your next stop is at 'Home', you should head back in the direction you came from. This means that you should go back to the last stop. Continue until you reach 'Home'. If you see any recognizable landmarks or objects, they will help guide you in the right direction. If your destination is Heriot-Watt University, keep going past 'Home'. I will let you know once you have arrived. Safe travels!
+2024-03-29 17:05:48,272 - Map - INFO - User choose Direction: back
+2024-03-29 17:06:08,160 - Map - INFO - User arrived at Home
+2024-03-29 17:06:09,614 - Map - INFO - User inputs: Where do I go from here?
+2024-03-29 17:06:12,469 - Map - INFO - System responses: Without a specific question or context about whether you need navigation instructions or image content descriptions, it's hard for me to provide a next step. Could you tell me what guidance you need now? Are you asking for the route to a place or do you want to understand the content of an image?
+2024-03-29 17:07:46,819 - Map - INFO - User arrived at Home
+2024-03-29 17:07:46,822 - Map - INFO - User inputs: where should I go?
+2024-03-29 17:07:48,468 - Map - INFO - System responses: Based on the current location and destination details provided, you should go forward in the direction of Moon Street to reach Heriot-Watt University.
+2024-03-29 17:08:07,328 - Map - INFO - User choose Direction: forward
+2024-03-29 17:08:40,158 - Map - INFO - User arrived at Moon Street
+2024-03-29 17:08:42,443 - Map - INFO - User inputs: where should i go
+2024-03-29 17:08:45,179 - Map - INFO - System responses: Since your current location is Moon Street and your destination is Heriot-Watt University, you should go forward to reach Heriot-Watt University which is your next stop.
+2024-03-29 17:08:55,003 - Map - INFO - User choose Direction: forward

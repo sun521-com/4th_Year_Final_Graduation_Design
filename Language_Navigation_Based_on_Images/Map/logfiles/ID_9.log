@@ -1,0 +1,23 @@
+2024-03-29 16:16:22,641 - Map - INFO - User starts from Home to destination Sainsbury
+2024-03-29 16:16:38,091 - Map - INFO - User arrived at Home
+2024-03-29 16:16:42,562 - Map - INFO - User inputs: where should I go?
+2024-03-29 16:16:45,732 - Map - INFO - System responses: You are currently at Home. To get to Sainsbury, you should head left towards Princesses Street. To guide you, there's a car in the horizontal middle and at the bottom part of your view. Its color is a mixture of dark blue-ish tone and light blue-ish tone. Make a left turn just before you reach this car.
+2024-03-29 16:17:12,295 - Map - INFO - User choose Direction: left
+2024-03-29 16:17:24,983 - Map - INFO - User arrived at Princesses Street
+2024-03-29 16:17:27,397 - Map - INFO - User inputs: what should I do next?
+2024-03-29 16:17:31,128 - Map - INFO - System responses: As an AI, I'm ready to answer your queries based on the provided instructions. Please tell me what do you need help with? Are you looking for navigation instructions or do you want me to describe an image content?
+2024-03-29 16:17:46,643 - Map - INFO - User arrived at Princesses Street
+2024-03-29 16:17:46,647 - Map - INFO - User inputs: where shouid I go?
+2024-03-29 16:17:49,790 - Map - INFO - System responses: You are currently on Princesses Street and your destination is Sainsbury. To reach there, you need to move forward, and the next position you will reach is the Cross Junction. Continue with this direction till you reach your destination. If you have reached Sainsbury, you have arrived at your destination.
+2024-03-29 16:18:05,940 - Map - INFO - User choose Direction: forward
+2024-03-29 16:18:18,143 - Map - INFO - User arrived at Cross Junction
+2024-03-29 16:18:19,851 - Map - INFO - User inputs: where should I go?
+2024-03-29 16:18:22,642 - Map - INFO - System responses: From your current location at Cross Junction, head towards Sainsbury. You should walk into the direction of right. Your next arrival will be at King Street. Please make a right turn when you spot a bicycle of taupe and Russian violet color located around the middle horizontally and at the bottom vertically.
+2024-03-29 16:18:50,600 - Map - INFO - User choose Direction: right
+2024-03-29 16:19:06,686 - Map - INFO - User arrived at King Street
+2024-03-29 16:19:09,212 - Map - INFO - User inputs: where should I go?
+2024-03-29 16:19:11,311 - Map - INFO - System responses: As this is a very broad question, could you please provide more details? Are you asking for directions or a suggestion for a travel destination or something else?
+2024-03-29 16:19:54,309 - Map - INFO - User arrived at King Street
+2024-03-29 16:19:54,319 - Map - INFO - User inputs: I want to go to Sainsbury
+2024-03-29 16:19:57,399 - Map - INFO - System responses: From your current location on King Street, you need to go forward in order to reach your next stop, which is Sainsbury supermarket.
+2024-03-29 16:20:03,590 - Map - INFO - User choose Direction: forward

@@ -1,0 +1,22 @@
+2024-03-28 20:33:47,157 - Map - INFO - User starts from Home to destination King Street
+2024-03-28 20:34:32,879 - Map - INFO - User arrived at Home
+2024-03-28 20:34:44,848 - Map - INFO - User inputs: how to arrive the destination
+2024-03-28 20:34:48,698 - Map - INFO - System responses: You are currently at home. To reach your destination, King Street, please go left. Your next stop will be Princesses street. Look out for a car which is colored very dark blue (almost black) and light bluish grey and is located in the horizontal middle and vertical bottom of your view. Make a left turn just before this car.
+
+2024-03-28 20:35:11,976 - Map - INFO - User choose Direction: left
+2024-03-28 20:35:36,625 - Map - INFO - User arrived at Princesses Street
+2024-03-28 20:35:40,130 - Map - INFO - User inputs: keep going
+2024-03-28 20:35:43,855 - Map - INFO - System responses: Alright, let's get started!
+
+Please post your questions one at a time about either your navigation route or image content description as outlined in the instructions. I'm here and ready to assist you!
+2024-03-28 20:36:37,685 - Map - INFO - User arrived at Princesses Street
+2024-03-28 20:36:37,685 - Map - INFO - User inputs: should I go forward now?
+2024-03-28 20:36:39,695 - Map - INFO - System responses: Yes, based on the provided data, you should go forward now.
+2024-03-28 20:36:43,725 - Map - INFO - User choose Direction: forward
+2024-03-28 20:37:27,110 - Map - INFO - User arrived at Cross Junction
+2024-03-28 20:37:28,520 - Map - INFO - User inputs: Now I see a crossroads. Where do I go from here?
+2024-03-28 20:37:36,391 - Map - INFO - System responses: As the current location is the Cross Junction, you should head towards the right direction to reach your destination at King Street. The next location you'll arrive at is also King Street. As a noticeable landmark, you should look for a bicycle. It's located in the middle horizontally and at the bottom vertically. This bicycle is in hues of purplish taupe and laurel green. Ensure that you make a right turn just before reaching this bicycle. If any changes occur, I'll be here to guide you further. Safe journey!
+2024-03-28 20:38:13,556 - Map - INFO - User choose Direction: right
+2024-03-28 20:38:41,559 - Map - INFO - User arrived at King Street
+2024-03-28 20:38:45,993 - Map - INFO - User inputs: is it king street?
+2024-03-28 20:38:48,481 - Map - INFO - System responses: Yes, based on the navigation instructions, your current location and destination both indicate King Street. You have arrived at your destination.
