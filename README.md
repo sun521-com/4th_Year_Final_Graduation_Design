@@ -9,6 +9,15 @@ The code should be structured as follows:
 Language_Navigation_Based_on_Images/
 ├── Detectron2/
 ├── Map/
+├──────logfiles/
+├──────static/
+├──────templates/
+├──────Dectector.py
+├──────GPT.py
+├──────Map.py
+├──────RelativePosition.py
+├──────PathGeneration.py
+└──────...
 └── Requirements.txt
 ```
 
