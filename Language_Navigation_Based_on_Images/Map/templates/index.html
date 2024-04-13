@@ -153,6 +153,8 @@ function sendMessage() {
     var chatbox = document.getElementById('chatbox');
     document.getElementById('messageInput').value = ''; // Empty the input box
     chatbox.innerHTML += `<div>You: ${message}</div>`; // Display the user's message in the chat box
+    chatbox.scrollTop = chatbox.scrollHeight;
+
     // Update button to wait and disable
     sendButton.textContent = 'Answering...';
     sendButton.disabled = true;
@@ -172,7 +174,7 @@ function sendMessage() {
     .then(data => {
         // Displays the server's or chatbot's response in the chatbox.
         chatbox.innerHTML += `<div>Navigation response: ${data.message}</div>`; // Display ChatGPT replies in the chat box
-
+        chatbox.scrollTop = chatbox.scrollHeight;
     })
     .catch((error) => {
         console.error('Error:', error);
