@@ -1,8 +1,7 @@
 from openai import OpenAI
 
 # OpenAI key
-# client = OpenAI(api_key='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')
-client = OpenAI(api_key='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')
+client = OpenAI(api_key='###')
 
 
 class DialogSystem:
