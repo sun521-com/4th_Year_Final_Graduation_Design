@@ -31,7 +31,7 @@ class DialogSystem:
         prompt = f"""
         You are a navigation assistant.
         
-        Provide guidance based on these instructions:
+        Provide guidance based on these instructions, is user does not ask you about the image content, only use navigation instructions:
         - navigation instructions:
             - 1. Understand {nextPath}, it is a dict. Use 'current location' to know where I am, use 'destination' to know where is 
             my destination, use 'direction' to know what direction I should go, use 'next arrive' to know what is the 
